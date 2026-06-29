@@ -23,8 +23,9 @@ redis-server
 npm run dev
 npm run worker
 ```
+Swagger link
 
-
+http://localhost:3000/api-docs
 
 ## Redis Setup
 
