@@ -1,0 +1,40 @@
+{
+  "name": "csv-import-processing-system",
+  "version": "1.0.0",
+  "description": "Scalable Node.js backend for CSV import processing using Express, MongoDB, Redis, and BullMQ.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "worker": "node src/workers/import.worker.js",
+    "lint": "echo \"Add ESLint when ready\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "redis",
+    "bullmq",
+    "csv-import"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.76.10",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "ioredis": "^5.10.1",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^2.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
